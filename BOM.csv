@@ -5,6 +5,5 @@ Red SMD LED 0603,LCSC,https://www.lcsc.com/product-detail/C2286.html,0.03,1,0.03
 10k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C98220.html,0.01,1,0.01,Field detection pin pull-up
 220nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C16194121.html,0.02,1,0.02,Energy harvesting output capacitor
 100nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C1591.html,0.01,1,0.01,Power supply decoupling
-Custom PCB NFC Antenna,JLCPCB,https://jlcpcb.com/,TBD,1,TBD,13.56MHz NFC antenna integrated into PCB copper
 Custom PCB Card,JLCPCB,https://jlcpcb.com/,TBD,1,TBD,Physical identity card circuit board
 TOTAL,,,,,1.8827,Excludes PCB fabrication and shipping
