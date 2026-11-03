@@ -1,10 +1,10 @@
-Component Name,Vendor,Specific Purchase Link,Price (USD),Quantity,Purpose
-NT3H2211W0FTTJ NFC Chip,NXP,https://www.nxp.com/part/NT3H2211W0FTT,0.66,1,Main NFC chip with 2KB memory and energy harvesting
-Red SMD LED 0603,LCSC,https://www.lcsc.com/,0.03,1,Indicates NFC field detection
-1k Ohm Resistor 0603,LCSC,https://www.lcsc.com/,0.01,1,LED current limiting
-10k Ohm Resistor 0603,LCSC,https://www.lcsc.com/,0.01,1,Field detection pin pull-up
-220nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/,0.02,1,Energy harvesting output capacitor
-100nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/,0.01,1,Power supply decoupling
-0 Ohm Resistor 0603,LCSC,https://www.lcsc.com/,0.01,1,Optional antenna configuration link
-Custom PCB NFC Antenna,JLCPCB,https://jlcpcb.com/,TBD,1,13.56MHz NFC antenna integrated into PCB copper
-Custom PCB Card,JLCPCB,https://jlcpcb.com/,TBD,1,Physical identity card circuit board
+Component Name,Vendor,Specific Purchase Link,Price (USD),Quantity per Card,Cost per Card (USD),Purpose
+NXP NT3H2211W0FTTJ NFC Chip,LCSC,https://www.lcsc.com/product-detail/C2654822.html,1.8027,1,1.8027,Main NFC chip with 2KB memory and energy harvesting
+Red SMD LED 0603,LCSC,https://www.lcsc.com/product-detail/C2286.html,0.03,1,0.03,Indicates NFC field detection
+1k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C216905.html,0.01,1,0.01,LED current limiting
+10k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C98220.html,0.01,1,0.01,Field detection pin pull-up
+220nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C16194121.html,0.02,1,0.02,Energy harvesting output capacitor
+100nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C1591.html,0.01,1,0.01,Power supply decoupling
+Custom PCB NFC Antenna,JLCPCB,https://jlcpcb.com/,TBD,1,TBD,13.56MHz NFC antenna integrated into PCB copper
+Custom PCB Card,JLCPCB,https://jlcpcb.com/,TBD,1,TBD,Physical identity card circuit board
+TOTAL,,,,,1.8827,Excludes PCB fabrication and shipping
