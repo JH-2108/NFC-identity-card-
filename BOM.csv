@@ -1,5 +1,5 @@
 Component Name,Vendor,Specific Purchase Link,Price (USD),Quantity per Card,Cost per Card (USD),Purpose
-NXP NT3H2211W0FTTJ NFC Chip,LCSC,https://www.lcsc.com/product-detail/C2654822.html,1.8027,1,1.8027,Main NFC chip with 2KB memory and energy harvesting
+NT3H2111W0FHKH chip,LCSC,https://www.lcsc.com/product-detail/C710403.html?s_z=n_q_NT3H2111W0FHKH,1.8027,1,1.8027,Main NFC chip with 2KB memory and energy harvesting
 Red SMD LED 0603,LCSC,https://www.lcsc.com/product-detail/C2286.html,0.03,1,0.03,Indicates NFC field detection
 1k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C216905.html,0.01,1,0.01,LED current limiting
 10k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C98220.html,0.01,1,0.01,Field detection pin pull-up
