@@ -4,3 +4,4 @@ LTST-C190KRKT Red LED (0603),Indicates NFC field detection when a phone is near 
 RC0603FR-072K2L 2.2kΩ Resistor (0603),Limits current through the red LED connected to the FD output,0.10,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/yageo/RC0603FR-072K2L/727016
 C1608X7R1H224K080AB 220nF Capacitor (0603 X7R 50V),Provides the required energy-harvesting output capacitance between VOUT and GND,0.16,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/tdk/C1608X7R1H224K080AB/2733480
 PCB board,Mounts the NFC chip and passive components and incorporates the six-turn antenna coil,7,1,JLCPCB,https://jlcpcb.com/quote
+PCBA JLCPCB,Assembles the entire PCB for you,25,1,https://jlcpcb.com
