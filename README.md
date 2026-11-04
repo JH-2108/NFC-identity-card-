@@ -47,15 +47,28 @@ The design will prioritize:
 
 **PCB Design** 
 
-A photo will be added here 
+**Front**
+
+<img width="341" height="526" alt="image" src="https://github.com/user-attachments/assets/65b404b5-1ec6-427e-b50b-df971c6298a1" />
+
+**Back**
+
+<img width="335" height="520" alt="image" src="https://github.com/user-attachments/assets/8ebedd4c-d3bc-49f0-89ff-fa911f65d0d7" />
+
 
 **Schematics** 
 
-A photo will be added here 
+<img width="701" height="521" alt="image" src="https://github.com/user-attachments/assets/911e1ee4-5856-4d5e-b0f0-66ca145c7077" />
 
 **3D rendered PCB design** 
 
-A photo will be added here 
+**Front**
+
+<img width="397" height="612" alt="image" src="https://github.com/user-attachments/assets/ff1523d6-b25e-4cfd-8e18-afc6294e4a56" />
+
+**Back**
+
+<img width="352" height="562" alt="image" src="https://github.com/user-attachments/assets/7ca7d69b-6006-42e5-b9f5-67684553009c" />
 
 **Physical prouct** 
 
