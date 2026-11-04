@@ -1,9 +1,6 @@
-Component Name,Vendor,Specific Purchase Link,Price (USD),Quantity per Card,Cost per Card (USD),Purpose
-NT3H2111W0FHKH chip,LCSC,https://www.lcsc.com/product-detail/C710403.html?s_z=n_q_NT3H2111W0FHKH,1.8027,1,1.8027,Main NFC chip with 2KB memory and energy harvesting
-Red SMD LED 0603,LCSC,https://www.lcsc.com/product-detail/C2286.html,0.03,1,0.03,Indicates NFC field detection
-1k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C216905.html,0.01,1,0.01,LED current limiting
-10k Ohm Resistor 0603,LCSC,https://www.lcsc.com/product-detail/C98220.html,0.01,1,0.01,Field detection pin pull-up
-220nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C16194121.html,0.02,1,0.02,Energy harvesting output capacitor
-100nF Ceramic Capacitor 0603 X7R,LCSC,https://www.lcsc.com/product-detail/C1591.html,0.01,1,0.01,Power supply decoupling
-Custom PCB Card,JLCPCB,https://jlcpcb.com/,TBD,1,TBD,Physical identity card circuit board
-TOTAL,,,,,1.8827,Excludes PCB fabrication and shipping
+Component Name,Purpose,Price (USD),Quantity,Vendor,Specific Purchase Link
+NT3H2111W0FHKH (XQFN8),Main NFC tag IC with 1KB EEPROM and I2C interface,1.45,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/nxp-usa-inc/NT3H2111W0FHKH/5872977
+LTST-C190KRKT Red LED (0603),Indicates NFC field detection when a phone is near the card,0.14,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/lite-on-inc/LTST-C190KRKT/386817
+RC0603FR-072K2L 2.2kΩ Resistor (0603),Limits current through the red LED connected to the FD output,0.10,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/yageo/RC0603FR-072K2L/727016
+C1608X7R1H224K080AB 220nF Capacitor (0603 X7R 50V),Provides the required energy-harvesting output capacitance between VOUT and GND,0.16,1,DigiKey Malaysia,https://www.digikey.my/en/products/detail/tdk/C1608X7R1H224K080AB/2733480
+Custom NFC Identity Card PCB with integrated 43.9mm antenna,Mounts the NFC chip and passive components and incorporates the six-turn antenna coil,2.00,1,JLCPCB,https://jlcpcb.com/quote
