@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#10110f">
+
+        <meta name="description" content="Chin Jie Hao's portfolio">
+
+        <title> JH Personal Identity</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DMM+monowght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body> 
+
+        <div class="background-grid"></div>
+
+        <header class="navbar">
+            <a href="#" class="logo">JH<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="navigation">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#interests">Interests</a>
+                <a href="contact" class="nav-contat">Connect <span>↗</span></a>
+            </nav>
+        </header>
+
+        <main> 
+            
+            <section class="hero section-container">
+
+                <div class="hero-top">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        HACK CLUB EMBASSY
+                    </div>
+
+                    <span class="hero-index">IDENTITY / 001</span>
+                </div>
+
+                <div class="hero-content">
+                    <p class="eyebrow">HELLO, I'M</p>
+
+                    <h1>
+                        Chin Jie<br>
+                        <span>Hao.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I am currently a student studying at SISKL, I enjoy doing some things and building projects that js looks rly rly cool. 
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="button-primary">
+                            Explore some of my projects!!!<span>↗</span>
+                        </a>
+
+                        <a href="https://github.com/JH-2108" target="_blank" rel="noopener noreferrer" class="button-secondary">GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-bottom">
+                    <span>I'm from Malaysia</span>
+                    <span>currently unemployed</span>
+                </div>
+
+            </section>
+
+            <section class="section-container content-section" id="about">
+
+                <div class="section-heading">
+                    <span class="section-number">01 / ABOUT</span>
+                    <h2> A little bit about me<span>.</span></h2>
+                </div>
+
+                <div class = "about-content">
+
+                    <div class="about-intro">
+                        <h3>
+                            Very bored rn.<br>
+                            Designing stuff that suits my interest igs.
+                        </h3>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            So, I guess you already know my name and where I'm currently studying. However, something you didn't know yet is that I have a very strong interest studying engineering, I love F1 and I play a lot of games too.
+                        </p>
+
+                        <p>
+                            I mostly enjoy designing some electronic parts, developing some hardware, exprimenting with things that can sometimes explode.
+                        </p>
+
+                        <p>
+                            My goal is to be able to one day work in F1, earn a shit ton of money and live my life comfortably.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <span class="info-label">LOCATION</span>
+                    <span class="info-value">Malaysia</span>
+
+                    <div class="info-card">
+                        <span class="info-label">FIELD OF INTERESTS</span>
+                        <span class="info-value">Engineering</span>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-label">COMMUNITY</span>
+                        <span class="info-value">Not in one right now, but maybe soon!</span>
+                    </div>
+
+                    <div class="about-detail">
+                        <span class="detail-label">Date of Birth</span>
+                        <span class="detail-value">21 August 2010</span>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section-container content-section" id="projects">
+
+                <div class="section-heading">
+                    <span class="section-number">02/ PROJECTS</span>
+                    <h2>Things that I've built<span>.</span></h2>
+                </div>
+
+                <p class="section-description">
+                    A collection of my electronics, hardware, and some engineereing projects.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-category">01 / HARDWARE</span>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                        <div class="project-visual visual-board">
+                            <div class="board-chip"> RP2040 </div>
+                            <div class="board-label">CUSTOM DEVELOPMENT BOARD</div>
+                        </div>
+
+                        <div class="project-details">
+                            <h3>RP2040 Development Board</h3>
+                            <p>
+                                A custom designed microcontroller development board built around the RP2040 chip.
+                            </p>
+
+                            <div class="tags">
+                                <span>PCB DESIGN</span>
+                                <span>EMBEDDED PROGRAMMING</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article  class="project-card">
+                        <div class="project-top">
+                            <span class="project-category">02 / ROBOTICS</span>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                        <div class="project-visual visual-robot">
+                            <div class="robot-symbol">🤖</div>
+                            <div class="board-label">ROBOTIC SYSTEMS</div>
+                        </div>
+
+                        <div class="project-details">
+                            <h3>Mini Robotic Arm</h3>
+                            <p>
+                                A joystick controlled robotic arm with multiple servo motors
+                            </p>
+                            <div class="tags">
+                                <span>ROBOTICS</span>
+                                <span>ARDUINO</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-category">03 / INSTRUMENTATION</span>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                        <div class="project-visual visual-scope">
+                            <div class="scope-wave">~</div>
+                            <div class="board-label">PORTABLE OSCILLOSCOPE</div>
+                        </div>
+
+                        <div class="project-details">
+                            <h3>Pocket Oscilloscope</h3>
+                            <p>
+                                A compact oscilloscope using an ESP32 and analogue signal conditioning. 
+                            </p>
+                            <div class="tags">
+                                <span>ESP32</span>
+                                <span>ELECTRONICS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-category">04 / HARDWARE</span>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                        <div class="project-visual visual-memory">
+                            <div class="memory-symbol">128 KB</div>
+                            <div class="board-label">M.2 SRAM MODULE</div>
+                        </div>
+
+                        <div class="project-details">
+                            <h3>M.2 SRAM Module</h3>
+                            <p>
+                                A custom M.2 module card designed around a parallel SRAM chip.
+                            </p>
+                            <div class="tags">
+                                <span>PCB DESIGN</span>
+                                <span>MEMORY</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-category">05 / NFC TECHNOLOGY</span>
+                            <span class="project-arrow">↗</span>
+                        </div>
+
+                        <div class="project-visual visual-nfc">
+                            <div class="nfc-symbol">NFC</div>
+                            <div class="board-label">DIGITAL IDENTITY CARD</div>
+                        </div>
+
+                        <div class="project-details">
+                            <h3>Embassy NFC Identity Card</h3>
+                            <p>
+                                A custom NFC identity card featuring an antenna, NFC chip and LED indicator
+                            </p>
+                            <div class="tags">
+                                <span>NFC</span>
+                                <span>PCB DESIGN</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="section-container content-section" id="interests">
+                
+                <div class="section-heading">
+                    <span class="section-number">03 / BEYOND THE WORKBENCH</span>
+                    <h2>Some of my interests<span>.</span></h2>
+                </div>
+
+                <div class="interests-grid">
+
+                    <div class="interest-card">
+                        <span class="interest-number">01</span>
+                        <h3>Formula 1</h3>
+                        <p>
+                            I like watching those cars go vroom, Kimi Antonelli my GOAT guys!
+                        </p>
+                    </div>
+
+                    <div class="interest-card">
+                        <span class="interest-number">02</span>
+                        <h3>Gaming</h3>
+                        <p>
+                            I play a whole lot of games, some of these games are roblox (definitely), some mobile games, and duolingo igs.
+                        </p>
+                    </div>
+
+                    <div class="interest-card">
+                        <span class="interest-number">03</span>
+                        <h3>Music</h3>
+                        <p>I sometimes play the violin and drums, and yea that's kinda all I do.</p>
+                    </div>
+
+                    <div class="interest-card">
+                        <span class="interest-number">04</span>
+                        <h3>Food</h3>
+                        <p>
+                            I really love eating, like really really love it, if I see food in front of me, yk its gonna be gone in a second. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-container contact-section" id="contact">
+                <span class="section-number">04 / CONTACT MEEEEE</span>
+                <h2>Wanna text me to ask me something or do something together?</h2>
+
+                <p> I am really really bored, and usually I don't have any plans, so, feel free to contact me anytime!!!</p>
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/JH-2108" target="_blank" rel="noopener noreferrer">
+                        Github<span>↗</span>
+                    </a>
+
+                    <a href="https://www.instaagram.com/it.sjh?psln=eG1qb3YwZ25pd2M5" target="_blank" rel="noopener noreferrer">
+                        Instagram<span>↗</span>
+                    </a>
+
+                    <a href="mailto:jiehao.chin@gmail.com" target="_blank" rel="noopener noreferrer">
+                        Email<span>↗</span>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer section-container">
+            <a href="#" class="logo">JH<span>.</span></a>
+            <p>DESIGNED AND BUILT BY JH</p>
+            <p><span id="year"></span> Some rights reserved</p>
+        </footer>
+
+
+    </body>
